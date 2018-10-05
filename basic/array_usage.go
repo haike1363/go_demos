@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-    var values [2][2]int
+	var values [2][2]int
 
-    fmt.Println(ss)
-    fmt.Println("array len:", len(values))
+	fmt.Println(values)
+	fmt.Println("array len:", len(values))
+
 }

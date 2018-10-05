@@ -1,13 +1,21 @@
-package basic
+package main
+
+import (
+	"fmt"
+)
 
 type People interface {
+	Say(a int)
 }
 
 type Student struct {
-    Name string
-    Year int
+	Name string
+	Year int
 }
 
-//func (*Student)Set(self (*Student), Name string, Year int) string {
-//    return Name
-//}
+func (self *Student) Nice() {
+	fmt.Println("nice ", self.Name)
+}
+
+func (self *Student) Say(a int) {
+}
