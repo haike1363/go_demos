@@ -21,7 +21,7 @@ import "C"
 import "fmt"
 
 func main() {
-	C.hello()
-	var added int = C.cAdd(1, 2)
-	fmt.Println(added)
+    C.hello()
+    var added int = C.cAdd(1, 2)
+    fmt.Println(added)
 }

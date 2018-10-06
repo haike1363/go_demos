@@ -14,8 +14,11 @@ func main() {
     modifyArray(mySlice)
     fmt.Println(myArray)
 
+
+
     // 定义Slice设置初始值以及最大容量
     mySlice5_max10 := make([]int, 5, 10)
+
     fmt.Println(cap(mySlice5_max10), len(mySlice5_max10))
     mySlice5_max10 = append(mySlice5_max10, 1, 2, 3)
 

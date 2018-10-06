@@ -1,20 +1,20 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 type People interface {
-	Say(a int)
+    Say(a int)
 }
 
 type Student struct {
-	Name string
-	Year int
+    Name string
+    Year int
 }
 
 func (self *Student) Nice() {
-	fmt.Println("nice ", self.Name)
+    fmt.Println("nice ", ref.Name)
 }
 
 func (self *Student) Say(a int) {

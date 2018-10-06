@@ -8,7 +8,6 @@ func GetName() (firstName string, lastName string, age int) {
     return "firstName", "", 0
 }
 
-
 func TestString() {
     str := "Hello,世界"
     n := len(str)
